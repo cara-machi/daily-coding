@@ -18,7 +18,10 @@ git add.
 git commit -m "Describe Changes"
 git push 
 
-Today's Achievements 
-1. Git version control system 
-2. Github project management 
-3. VS Code efficeint workflow
+### Dec 8 
+1. when facing dquote> on terminal 
+control + C
+2. Unstage hw1.md to exclude it from this commit
+git restore --staged homework/hw1.md
+
+
