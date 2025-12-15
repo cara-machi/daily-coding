@@ -17,4 +17,13 @@ class Solution:
                max_sum=max(max_sum, current_sum)
                current_sum=nums[i]
         return max(max_sum, current_sum)
-    
+
+if __name__ == "__main__":
+    solution=Solution
+    print(solution.maxAscendingSum([1,2,3]))
+    print(solution.maxAscendingsum([10,20,30,100,2,4]))
+
+
+
+
+

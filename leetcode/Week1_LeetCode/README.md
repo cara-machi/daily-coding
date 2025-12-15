@@ -30,9 +30,11 @@ Given an array prices, find the maximum profit by buying and selling once.
 **Python Script:** `Day1_BestTimeBuySell.py`
 
 **Test Cases:**
+```python
 maxProfit([7,1,5,3,6,4])  # Expected: 5
 maxProfit([7,6,4,3,1])    # Expected: 0
 maxProfit([1,2,3,4,5])    # Expected: 4
+```
 
 ## Day 2: Maximum Ascending Subarray Sum
 
