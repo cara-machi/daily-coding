@@ -7,5 +7,5 @@ c="May"
 d=False
 
 print(type(a),type(b),type(c),type(d))
-print("Convert flow into int",int(b))
-print("Convert int into string",str(a))
+print("Convert flow into int:",int(b))
+print("Convert int into string:",str(a))

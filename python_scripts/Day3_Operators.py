@@ -1,5 +1,5 @@
 #Day3_Operators.py
-#Tasks: Practise Operators
+#Task: Practise Operators
 
 x=101
 y=24
