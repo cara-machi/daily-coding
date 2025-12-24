@@ -28,3 +28,9 @@ def calculate():
     return total  # ✅ Correct
 ```
 **Use range to loop n times, and save return for functions only."**
+
+# Week2Day3
+1. f-string functions the same way in input() as in print()
+```python
+user_input=int(input(f"Enter number{i+1}:"))
+2. need to pay attention to the numbers of iterations, i could initiallized to be 1 or 0 
