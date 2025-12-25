@@ -33,4 +33,21 @@ def calculate():
 1. f-string functions the same way in input() as in print()
 ```python
 user_input=int(input(f"Enter number{i+1}:"))
+```
 2. need to pay attention to the numbers of iterations, i could initiallized to be 1 or 0 
+
+# Week2Day4
+1. print menu line-by-line fopr clear user interation, not as a raw list. 
+2. == compare values, = assign values 
+3. handle edge cases like user typos or invalid input 
+4. use a loop with break to re-prompt on error and exit on valid input. 
+```python 
+while True:
+    try:
+        choice = int(input("Enter choice(1-4):))
+        if 1<=choice<=4:
+            break
+        else:
+            print("Invalid! Please ente 1-4")
+    except ValueError:
+        print("Please enter a number!")
