@@ -51,3 +51,31 @@ while True:
             print("Invalid! Please ente 1-4")
     except ValueError:
         print("Please enter a number!")
+
+```
+# Wee2Day5 
+1. Zero-division handling: 
+- check at either function definition or call site. 
+- **Recommended encapsulate in function definition for clearer calls**
+2. Variable scope:
+- Functions create local scope; result must be defined in all branches
+- espeically in edgey situations like zero-division
+3. input validation pattern:
+- while True: loop with try/excpet ValueError for robust user input. 
+4. Conditional structure:
+- Use if/elif/elif/elif chain:
+- The last can be else depending on needs. 
+5. Subtle difference btw return an print
+- **Functions should return values; printing is for user interaction**
+```python
+def div(a,b):
+    if b==0:
+        print("zero is not dividable")  # 1. notice 
+    return a/b                          # 2. but still run a/b when b=0
+
+def div(a,b):
+    if b==0:
+        return "Error: Cannot divide by zero"  # key: direcly return 
+    return a/b                                 # execute when b!=0
+```
+- Return could directly stop the division when b==0
