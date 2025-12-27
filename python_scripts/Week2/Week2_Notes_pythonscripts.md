@@ -79,3 +79,18 @@ def div(a,b):
     return a/b                                 # execute when b!=0
 ```
 - Return could directly stop the division when b==0
+
+# Week2Day6
+1. import random + randit()- import module, than cal random.randit(1,100) to generate secret number
+2. post-loop print- After while ends when guess==secret_code, print "correct" once do not ahve to create another if conditional 
+3. **guess=None** initalize variable enter while loop, then update inside loop for unified input handling. 
+```python 
+guess = None  
+while guess != secret_code:
+    guess = int(input("Guess: "))
+    if guess > secret_code:
+        print("Too high")
+    elif guess < secret_code:
+        print("Too low")
+print("Correct!") 
+```
