@@ -94,3 +94,32 @@ while guess != secret_code:
         print("Too low")
 print("Correct!") 
 ```
+
+# Week2Day7
+1) Clarity prolems 
+```python 
+if is_Even(i)== True #❌reduandant 
+if is_Even(i):       #✅concise
+def is_Even(n):
+    if n%2==0:
+        return True. #❌reduandant 
+
+def is_Even(n):
+    retrun n%2 ==0  # Return direct Bool Result
+                    #✅concise
+```
+2) Bool Problem 
+```python
+#all true:
+if True:
+if 1:
+if "hello":
+if [1,2,3]:
+if is_even(i): #if function return True
+#all false:
+if False:
+if 0:
+if "":
+if []:
+```
+3) could directly use the defined function and do not need to write the logic again inside another function 
